@@ -1,0 +1,21 @@
+﻿<Window x:Class="Broadcaster.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Title="Broadcaster"
+        Width="525"
+        Height="350"
+        mc:Ignorable="d">
+    <Grid>
+        <StackPanel Width="200"
+                    VerticalAlignment="Center"
+                    Orientation="Vertical">
+            <TextBox x:Name="TextBox"
+                     Text="你好，世界！" />
+            <Button Margin="0,4,0,0"
+                    Click="SendButton_Click"
+                    Content="Send" />
+        </StackPanel>
+    </Grid>
+</Window>
